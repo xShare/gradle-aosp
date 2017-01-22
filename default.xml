@@ -8,7 +8,7 @@
            remote="origin"
            sync-j="4" />
 
-  <project path="prj_config" name="gradle-aosp-config">
+  <project path="prj_config" name="xShare/gradle-aosp-config">
 	  <linkfile src="build.gradle" dest="build.gradle" />
 	  <linkfile src="settings.gradle" dest="settings.gradle" />
 
@@ -18,10 +18,10 @@
           <linkfile src="gradlew.bat" dest="gradlew.bat" />
   </project>
   
-  <project path="Contacts" name="gradle-aosp-Contacts"/>
-  <project path="Dialer" name="gradle-aosp-Dialer"/>
-  <project path="ContactsCommon" name="gradle-aosp-ContactsCommon"/>
+  <project path="Contacts" name="xShare/gradle-aosp-Contacts"/>
+  <project path="Dialer" name="xShare/gradle-aosp-Dialer"/>
+  <project path="ContactsCommon" name="xShare/gradle-aosp-ContactsCommon"/>
 
-  <project path="vcard" name="gradle-aosp-vcard"/>
-  <project path="PhoneCommon" name="gradle-aosp-PhoneCommon"/>
+  <project path="vcard" name="xShare/gradle-aosp-vcard"/>
+  <project path="PhoneCommon" name="xShare/gradle-aosp-PhoneCommon"/>
 </manifest>
