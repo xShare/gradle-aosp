@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="origin"
+           fetch=".." />
+
+  <default revision="refs/heads/gradle-aosp-5.1.0_r3"
+           remote="origin"
+           sync-j="4" />
+
+  <project path="prj_config" name="gradle-aosp-config">
+	  <linkfile src="build.gradle" dest="build.gradle" />
+	  <linkfile src="settings.gradle" dest="settings.gradle" />
+
+          <linkfile src="gradle/wrapper/gradle-wrapper.jar" dest="gradle/wrapper/gradle-wrapper.jar" />
+          <linkfile src="gradle/wrapper/gradle-wrapper.properties" dest="gradle/wrapper/gradle-wrapper.properties" />
+          <linkfile src="gradlew" dest="gradlew" />
+          <linkfile src="gradlew.bat" dest="gradlew.bat" />
+  </project>
+  
+  <project path="Contacts" name="gradle-aosp-Contacts"/>
+  <project path="Dialer" name="gradle-aosp-Dialer"/>
+  <project path="ContactsCommon" name="gradle-aosp-ContactsCommon"/>
+
+  <project path="vcard" name="gradle-aosp-vcard"/>
+  <project path="PhoneCommon" name="gradle-aosp-PhoneCommon"/>
+</manifest>
